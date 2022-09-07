@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .container-1 {
+        display: flex;
+        background-color:rgb(210, 191, 227);
+        /* align-items: flex-end; */
+        /* align-items: flex-start; */
+        /* align-items: center; */
+        /* align-items: stretch; */
+        /* flex-direction: column; */
+      }
+      .container-2 {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(145, 229, 201);
+        /* margin-top: 5px; */
+        /* justify-content: center; */
+        /* justify-content: space-evenly; */
+      }
+      .container-1 div,
+      .container-2 div {
+        border: 2px solid pink;
+        padding: 10px;
+
+      }
+      .box-1 {
+        flex: 2; /*Width*/
+        order: 3;
+      }
+      .box-2 {
+        flex: 2;
+        order: 1;
+      }
+      .box-3 {
+        flex: 4;
+        order: 2;
+      }
+      .container-2-box {
+        width: 30%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <h1 style="float: right">Hello</h1><br><br> -->
+
+    <div class="container-1">
+      <div class="box-1">
+        <h3>Box one</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+          earum repudiandae quam consequatur eum animi.
+        </p>
+      </div>
+
+      <div class="box-2">
+        <h3>Box Two</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+          earum repudiandae quam consequatur eum animi.
+        </p>
+      </div>
+
+      <div class="box-3">
+        <h3>Box Three</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+          earum repudiandae quam consequatur eum animi.
+        </p>
+      </div>
+    </div>
+
+    <div class="container-2">
+      <div class="container-2-box">
+        <h3>Box one</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+          earum repudiandae quam consequatur eum animi.
+        </p>
+      </div>
+
+      <div class="container-2-box">
+        <h3>Box Two</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+          earum repudiandae quam consequatur eum animi.
+        </p>
+      </div>
+
+      <div class="container-2-box">
+        <h3>Box Three</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+          earum repudiandae quam consequatur eum animi.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
